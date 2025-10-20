@@ -12,7 +12,7 @@ session_start();
 <?php
 $host  = $_SERVER['HTTP_HOST'];
 $uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-print_r("$host$uri");
+// print_r("$host$uri");
 // echo "$host$uri/$extra";
 if (isset($_SESSION["login"]) && trim($_SESSION["login"]) !== "") {
   echo "<div class= 'exit'>";
