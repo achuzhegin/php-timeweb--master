@@ -1,0 +1,31 @@
+body {
+  font-size: 20px;
+  font-weight: normal;  
+}
+form {
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  border: solid;
+  border-radius: 5%;
+  background-color: antiquewhite; 
+}
+.text {
+  width: 90%; 
+}
+.submit {
+  margin-top: 10%;
+}
+.exit {
+  margin: 0 auto;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  border: solid;
+  border-radius: 5%;
+  background-color: antiquewhite; 
+}
+p {
+  text-align: center;
+}
